@@ -1,0 +1,40 @@
+.blind {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+}
+
+// 메인 로고
+.sp-bg {
+    background-image: url(../images/sp-bg.png);
+    background-size: 434px;
+    background-repeat: no-repeat;
+}
+
+// 쇼핑&알람 로고
+.sp-bg2 {
+    background-image: url(../images/sp-bg2.png);
+    background-size: 134px 121px;
+    background-repeat: no-repeat;
+}
+
+// 날씨 로고
+.sp-bg3 {
+    background-image: url(../images/sp-bg3.png);
+    background-size: 641px 587px;
+    background-repeat: no-repeat;
+}
+
+%border-before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+}
